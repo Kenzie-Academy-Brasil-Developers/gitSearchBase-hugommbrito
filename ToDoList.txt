@@ -1,0 +1,25 @@
+OK    1 - Adaptar Scaffold para a página
+OK        I - Arquivos
+OK        II - Cores
+OK        III - Botões
+OK        IV - Inputs
+OK        V - Fonts
+OK        VI - Espaçamentos
+OK    2 - Gerar HTML
+OK        I - Home
+OK        II - Profile
+    3 - Estilizar
+        I - Home
+        II - Profile
+        III - Checar se está FIEL ao figma
+    4 - Criar Lógica
+        I - Puxar dados da API com base no Inputs
+            a. Botão de spiner enquanto carrega o resultado
+            b. Mostrar na tela caso não seja encontrado
+            c. Encaminhar para o perfil caso seja encontrado
+            d. botão "ver perfil github" inicia desativado, só ativa quando algo for digitado
+        II - Armazenar os usuários pesquisados no localStorage
+            a. Exibi-los na home conforme pedido no canvas
+            b. Exibir "acessar este perfil" quando o mouse estiver sobre o usuário na home
+        III - Botão de retornar à página inicial
+        IV - Botão de email para o email do usuário pesquisado (Usar tag <a> e href="mailto")

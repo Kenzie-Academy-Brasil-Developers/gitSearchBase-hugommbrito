@@ -1,0 +1,39 @@
+.title-1{
+    font-size: var(--font-title-1);
+    font-weight: var(--font-weight-1);
+    color: var(--color-white);
+}
+.title-2{
+    font-size: var(--font-title-2);
+    font-weight: var(--font-weight-0);
+    color: var(--color-white);
+}
+.title-3{
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-2);
+    color: var(--color-white);
+}
+.text-1{
+    font-size: var(--font-title-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-white);
+}
+.text-2{
+    font-size: var(--font-text-1);
+    font-weight: var(--font-weight-2);
+    color: var(--color-white);
+}
+.text-3{
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-2);
+    color: var(--color-white);
+}
+.text-3{
+    font-size: var(--font-text-2);
+    font-weight: var(--font-weight-3);
+    color: var(--color-white);
+}
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}

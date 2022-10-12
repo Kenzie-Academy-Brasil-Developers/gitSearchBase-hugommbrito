@@ -1,0 +1,34 @@
+.user > img{
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid var(--color-primary);
+}
+
+.user-info > p{
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.505);
+}
+
+
+
+.card{
+    height: 243px;
+    width: 380px;
+
+    padding: 35px 25px;
+
+    border: 2px solid var(--color-white);
+    border-radius: var(--radius-2);
+}
+
+.card > h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card > div > button{
+    height: 20px;
+    border-radius: var(--radius-1);
+    padding: var(--gap-6) var(--gap-6);
+}

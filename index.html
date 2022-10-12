@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hugo Brito">
+
+    <!-- Globals -->
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/margins.css">
+    <link rel="stylesheet" href="./styles/position.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/colors.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <!-- Page -->
+    <link rel="stylesheet" href="./pages/home/style.css">
+
+    <title>Documentação</title>
+    <meta name="description" content="Home Website">
+    <link rel="shortcut icon" href="../../assets/img/favicons/favicon.jpeg" 
+    type="image/x-icon">
+</head>
+<body>
+    <main class="flex">
+        <div class="div-pink bgc-primary flex-center ">
+            <div class="div-pink-info flex-col spc-btwn">
+                <h2 class="title-1">Git Search</h2>
+                <p class="text-1">Encontre e se conecte com profissionais de forma rápida e fácil</p>
+                <div class="flex-center spc-btwn">
+                    <p class="text-2">Achados Recentemente:</p>
+                    <div class="recent-user">
+                        <img id="img-1" src="./assets/Foto de Perfil.jpeg" alt="">
+                        <button id="btn-1" class="btn-white hidden">Acessar esse Perfil</button>
+                    </div>
+                    <div class="recent-user">
+                        <img id="img-2" src="./assets/Foto de Perfil.jpeg" alt="">
+                        <button id="btn-2" class="btn-white hidden">Acessar esse Perfil</button>
+                    </div>
+                    <div class="recent-user">
+                        <img id="img-3" src="./assets/Foto de Perfil.jpeg" alt="">
+                        <button id="btn-3" class="btn-white hidden">Acessar esse Perfil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div-grey bgc-grey-1 flex-center">
+            <div class="div-grey-info flex-col spc-btwn">
+                <h3 class="title-3">Procurar por um usuário</h3>
+                <label class="text-3" for="username">Usuário github</label>
+                <input type="text" class="input-default" placeholder="Digite um usuário do github aqui...">
+                <p class="text-3 color-primary hidden">Usuário não encontrado</p>
+                <button class="btn-primary flex-center"><a href="./pages/profile/index.html">Ver perfil do github</a></button>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Page Script-->
+    <script src="./pages/home/script.js"></script>
+</body>
+</html>
