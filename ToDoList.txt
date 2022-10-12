@@ -8,10 +8,10 @@ OK        VI - Espaçamentos
 OK    2 - Gerar HTML
 OK        I - Home
 OK        II - Profile
-    3 - Estilizar
-        I - Home
-        II - Profile
-        III - Checar se está FIEL ao figma
+OK    3 - Estilizar
+OK        I - Home
+OK        II - Profile
+OK        III - Checar se está FIEL ao figma
     4 - Criar Lógica
         I - Puxar dados da API com base no Inputs
             a. Botão de spiner enquanto carrega o resultado

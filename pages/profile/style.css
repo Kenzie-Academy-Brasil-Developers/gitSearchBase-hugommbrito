@@ -20,12 +20,18 @@
     border: 2px solid var(--color-white);
     border-radius: var(--radius-2);
 }
+.card:hover{
+    background-color: #151719;
+}
 
 .card > h3{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.card > p{
+    color: var(--color-grey-5);
+}   
 
 .card > div > button{
     height: 20px;

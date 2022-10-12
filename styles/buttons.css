@@ -20,6 +20,13 @@
     background-color: var(--color-primary);
     border-color: var(--color-primary)
 }
+.btn-primary:disabled{
+    background-color: var(--color-primary-transparent);
+    border-color: var(--color-primary-transparent);
+    color: var(--color-grey-5);
+    cursor:default
+}
+
 
 .btn-grey{
     height: var(--size-1);
