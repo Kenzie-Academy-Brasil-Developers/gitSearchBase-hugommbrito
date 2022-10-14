@@ -12,6 +12,7 @@
 .div-pink img{
     height: 3.75rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .hidden{
@@ -34,4 +35,22 @@
     height: 2.375rem;
     padding: 0;
     border-radius: var(--radius-1);
+}
+
+.loading-btn{
+    height: calc(var(--size-1) * 0.65);
+    width: calc(var(--size-1) * 0.65);
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #FFFFFF;
+    animation: loadingAnimation 1s ease infinite;
+}
+
+@keyframes loadingAnimation{
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
 }

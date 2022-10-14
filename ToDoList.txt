@@ -12,14 +12,14 @@ OK    3 - Estilizar
 OK        I - Home
 OK        II - Profile
 OK        III - Checar se está FIEL ao figma
-    4 - Criar Lógica
-        I - Puxar dados da API com base no Inputs
-            a. Botão de spiner enquanto carrega o resultado
-            b. Mostrar na tela caso não seja encontrado
-            c. Encaminhar para o perfil caso seja encontrado
-            d. botão "ver perfil github" inicia desativado, só ativa quando algo for digitado
-        II - Armazenar os usuários pesquisados no localStorage
-            a. Exibi-los na home conforme pedido no canvas
-            b. Exibir "acessar este perfil" quando o mouse estiver sobre o usuário na home
-        III - Botão de retornar à página inicial
-        IV - Botão de email para o email do usuário pesquisado (Usar tag <a> e href="mailto")
+OK    4 - Criar Lógica
+OK        I - Puxar dados da API com base no Inputs
+OK            a. Botão de spiner enquanto carrega o resultado
+OK            b. Mostrar na tela caso não seja encontrado
+OK            c. Encaminhar para o perfil caso seja encontrado
+OK           d. botão "ver perfil github" inicia desativado, só ativa quando algo for digitado
+OK        II - Armazenar os usuários pesquisados no localStorage
+OK            a. Exibi-los na home conforme pedido no canvas
+OK            b. Exibir "acessar este perfil" quando o mouse estiver sobre o usuário na home
+OK        III - Botão de retornar à página inicial
+OK        IV - Botão de email para o email do usuário pesquisado (Usar tag <a> e href="mailto")

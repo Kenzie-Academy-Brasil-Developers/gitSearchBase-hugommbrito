@@ -29,20 +29,20 @@
             <div class="div-pink-info flex-col spc-btwn">
                 <h2 class="title-1">Git Search</h2>
                 <p class="text-1">Encontre e se conecte com profissionais de forma rápida e fácil</p>
-                <div class="flex-center spc-btwn">
+                <div class="flex-center spc-btwn" id="recent-search">
                     <p class="text-2">Achados Recentemente:</p>
-                    <div class="recent-user">
+                    <!-- <div class="recent-user">
                         <img id="img-1" src="./assets/Foto de Perfil.jpeg" alt="">
                         <button id="btn-1" class="btn-white hidden">Acessar esse Perfil</button>
                     </div>
                     <div class="recent-user">
                         <img id="img-2" src="./assets/Foto de Perfil.jpeg" alt="">
-                        <button id="btn-2" class="btn-white hidde">Acessar esse Perfil</button>
+                        <button id="btn-2" class="btn-white hidden">Acessar esse Perfil</button>
                     </div>
                     <div class="recent-user">
                         <img id="img-3" src="./assets/Foto de Perfil.jpeg" alt="">
                         <button id="btn-3" class="btn-white hidden">Acessar esse Perfil</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -50,9 +50,9 @@
             <div class="div-grey-info flex-col spc-btwn">
                 <h3 class="title-3">Procurar por um usuário</h3>
                 <label class="text-3" for="username">Usuário github</label>
-                <input type="text" class="input-default" placeholder="Digite um usuário do github aqui...">
-                <p class="text-3 color-primary hidden">Usuário não encontrado</p>
-                <a href="./pages/profile/index.html"><button class="btn-primary flex-center">Ver perfil do github</button></a>
+                <input type="text" class="input-default" id="profile-input" placeholder="Digite um usuário do github aqui...">
+                <p class="text-3 color-primary hidden" id="user-not-found">Usuário não encontrado</p>
+                <button class="btn-primary flex-center" disabled id="btn-see-profile">Ver perfil do github</button>
             </div>
         </div>
     </main>

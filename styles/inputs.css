@@ -6,6 +6,7 @@
     padding: 0 var(--gap-5);
     font-size: var(--font-text-2);
     border: 2px solid var(--color-grey-3);
+    color: var(--color-white);
 }
 .input-default:hover, .input-default:focus{
     outline: none;
@@ -13,7 +14,7 @@
     color: var(--color-grey-5)
 }
 
-.input-default-not-found{
+.input-default:focus-visible{
     outline: none;
     color: var(--color-grey-5);
     border: 2px solid var(--color-primary);

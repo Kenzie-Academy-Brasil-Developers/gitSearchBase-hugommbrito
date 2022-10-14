@@ -33,7 +33,7 @@
     color: var(--color-grey-5);
 }   
 
-.card > div > button{
+.card > div > button, .card > div > a > button{
     height: 20px;
     border-radius: var(--radius-1);
     padding: var(--gap-6) var(--gap-6);
